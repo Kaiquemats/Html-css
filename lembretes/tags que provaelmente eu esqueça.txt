@@ -1,0 +1,42 @@
+abbr = abreviação/ descrição da parada
+quer colocar o fotos em diferentes telas no site = picture source media type em baixo coloca img e lembrese sempre colocar em ordem 
+div:hover > p = > quer dizer o filho da div
+display: 
+block é pra aparecer e none é pra nada, desaparecer
+
+
+pseudo class: basicamente Uma pseudo-classe CSS é uma palavra-chave adicionada às declarações de um seletor
+após um sinal de dois pontos e especificam um estado especial de um elemento. 
+
+altura height
+width largura
+weight 
+
+ordens de propriedades
+padding, border, margin e outline
+sempre fazer em antihorario do relogio
+top. right, bottom e left
+
+outline fica entre border e margin (pra que vou usar isso? eu não faço ideia. talvez la pra frente eu saiba)
+
+PARA QUE EU CENTRALIZE A PARADA DO BORDER OU TMB IMAGEM É SO TACAR BORDER: AUTO; CABOU!!! 
+
+box shadow sempre coloca 3 pxs e um black
+
+deslocamento horizontal, deslocamento vertical, espalhamento e sombra
+
+border radius
+é que nem o box shadow que é esquerda direita e esquerda direita
+ele tmb pode ser usada que nem o padding e os outros, como 20px 20px. ele fica 20 por 20 em cada parte LEMBRE SE DISSO!!
+
+
+degradê como colocar no css: background-image: linear-gradient(sempre coloca a posição da cor como to right, to bottom, to left e to top e as cores ao lado)
+
+
+
+variaveis no css: :root { --cor0 ()
+
+--fonte-padrao: 
+--fonte-destaque:
+
+}

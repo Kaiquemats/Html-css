@@ -1,0 +1,7 @@
+ A tag <code> é usada para mostrar um trecho de código fonte, como uma instrução ou uma função. 
+Ela preserva a formatação do código, mas não o executa. A tag <pre> é usada para mostrar um texto pré-formatado, ou seja, um texto que mantém os espaços e as quebras de linha que foram digitados. 
+Ela é útil para mostrar poemas, endereços ou outros textos que precisam de uma formatação específica. 
+A tag <q> é usada para mostrar uma citação simples, que fica entre aspas. 
+Ela é diferente da tag <blockquote>, que é usada para mostrar uma citação longa, que fica com uma margem maior e não tem aspas. 
+A tag <blockquote> também tem um atributo chamado cite, que é o endereço da fonte da citação. 
+Essas são algumas das tags de formatação que você pode usar no HTML.
