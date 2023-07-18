@@ -40,3 +40,15 @@ variaveis no css: :root { --cor0 ()
 --fonte-destaque:
 
 }
+
+responsividade de video
+left
+top
+bottom
+right
+
+background repeat: no repeat = so vai ter apenas uma imagem
+background repeat: repeat = vai ter varias da mesma imagem
+background-size: px px
+background repeat: repeat-y =  vai repetir pra baixo
+background repeat: repeat-x = vai repetir pro lado
