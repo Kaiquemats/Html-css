@@ -54,3 +54,24 @@ background repeat: repeat-y =  vai repetir pra baixo
 background repeat: repeat-x = vai repetir pro lado
 
 vh = view port
+                 tamanho fixo em pixel ou em % da tela
+                 auto = deixar o navegador se virar pra tentar centralizar a imagem
+                 contain = mostrar 100% da tela sem cortar. tenta se adaptar
+background-size: cover = ele não exibe 100% da imagem e sim ocupa 100% da viewport
+
+shothand background
+
+scroll (padrão) a imagem de fundo vai rolar junto com o conteudo
+fixed a imagem de fundo vai ficar fixada enquanto o conteudo vai sendo rolado
+
+background color > background image > background position > background repeat > background attachment
+
+position relative = todo posição de um box em html por padrão é posição relativo
+
+
+container = posição relativo
+
+conteudo = posição absoluto
+
+transform = translate -50% -50%
+
