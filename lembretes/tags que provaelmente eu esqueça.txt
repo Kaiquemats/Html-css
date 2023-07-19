@@ -75,3 +75,5 @@ conteudo = posição absoluto
 
 transform = translate -50% -50%
 
+font-variant- small caps = deixar algumas letras maiores do que as outras 
+
