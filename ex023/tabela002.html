@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        thead, tfoot {
+            background-color: gray;
+            color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+
+        tbody > tr:nth-child(2n) {
+            background-color: lightgray;
+        }
+
+        caption {
+            background-color: rgba(128, 128, 128, 0.514);
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>uso de tabelas grandes</h1>
+    <table>
+        <caption>população das unidades federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">estado</th>
+                <th scope="col" style="width: 50px;">população</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>são paulo</td>
+                <td>45 919 049</td>
+            </tr>
+            <tr>
+                <td>minas gerais</td>
+                <td>21 168 791</td>
+            </tr>
+
+            <tr>
+                <td>rio de janeiro</td>
+                <td>17 264 943</td>
+            </tr>
+            <tr>
+                <td>bahia</td>
+                <td>14 136 417</td>
+            </tr>
+            <tr>
+                <td>paraná</td>
+                <td>11 443 208</td>
+            </tr>
+            <tr>
+                <td>rio grande do sul</td>
+                <td>10 880 506	</td>
+            </tr>
+            <tr>
+                <td>pernambuco</td>
+                <td>9 058 155</td>
+            </tr>
+            <tr>
+                <td>ceara</td>
+                <td>8 791 688</td>
+            </tr>
+            <tr>
+                <td>pará</td>
+                <td>8 116 132	</td>
+            </tr>
+            <tr>
+                <td>santa catarina</td>
+                <td>7 609 601	</td>
+            </tr>
+            <tr>
+                <td>maranhão</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>goias</td>
+                <td>7 055 228	</td>
+            </tr>
+            <tr>
+                <td>amazonas</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>espirito santo</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>paraiba</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>rio grande do norte</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>mato grosso</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>alagoas</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>piaui</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>distrito federal</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>mato grosso do sul</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>sergipe</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>rondonia</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>tocantis</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>acre</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>amapá</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>roraima</td>
+                <td></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>total de habitantes</th>
+                <td>210.147.125</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

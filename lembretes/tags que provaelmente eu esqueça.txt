@@ -96,3 +96,38 @@ text align alinhamento horizontal
 vertical alinhamento vertical. align: middle, top e bottom
 
 numero por padrão sempre vai ficar na direita mas com o text align é possivel mudar de posição dele
+
+thead = cabeça da tabela
+tbody = corpo da tabela
+tfoot = pé da tabela
+
+th = titulo
+td = dado
+
+scope e caption
+
+caption é uma legenda para a tabela
+sempre coloca embaixo do table
+
+scope col = tabela que tenha coluna
+scope row tabela que é na mesma linha
+
+efeito zebrado 
+
+tbody > tr: nth child (2n)
+	    odd = basicamente vai mudar pra impar
+
+odd,   even 
+impar, par
+
+Cabeçalho fixo em tabelas grandes
+
+thead > tr > th {
+	position sticky
+	top -1px
+	background-color: gray;
+}
+sempre coloca position: relative; no table tmb
+
+colspan = coluna
+rowspan = linha
