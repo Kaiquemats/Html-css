@@ -131,3 +131,10 @@ sempre coloca position: relative; no table tmb
 
 colspan = coluna
 rowspan = linha
+
+colgroup = basicamente colocar alguma cor por coluna
+
+basicamente tabela responsivas
+
+overflow x: auto
+envelopa o table por div e depois coloca id container
