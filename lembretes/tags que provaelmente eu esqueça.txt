@@ -138,3 +138,14 @@ basicamente tabela responsivas
 
 overflow x: auto
 envelopa o table por div e depois coloca id container
+
+
+iframe = quadro em linha
+
+tamanho padrão de um iframe é de 300x150
+
+em questão de colocar algo no iframe como por exemplo height e width e depois colocar essa mesma configuração ou outra, a css vai cobrir a configuração do iframe
+
+scolling no tira o scroll
+         yes coloca scroll
+         auto padrão
