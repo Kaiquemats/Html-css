@@ -200,3 +200,22 @@ Obs.: Mas esteja ciente de que ao definir o Box Model Corrigido em um projeto ex
 
 No do menu desse projeto, uma outra maneira de evitar esse deslocamento dos itens vizinhos, sem utilizar o "box-sizing", seria criando a borda da imagem com um outline ao invés de border. Outline não influencia no tamanho total do elemento e portanto não iria empurrar os outros itens. 
 
+
+Os formulários devem estar dentro de:
+
+	<form>	      </form>
+
+
+Input de texto:	<input type="text" name=" " id=" ">
+
+	Ex:	<form>
+			<p>Nome: <input type="text" name="nome" id="nome"></p>
+		</form>
+
+
+Input de envio:	<input type="submit" value=" ">
+
+	Ex:	<form>
+			<p><input type="submit" value="Enviar"></p>
+		</form>
+
