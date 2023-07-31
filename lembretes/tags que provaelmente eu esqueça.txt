@@ -671,3 +671,12 @@ Ex:	@charset "UTF-8";
             }
         }
     </script>
+
+ login 
+
+width: calc(100% - 45px);
+
+manter foco na barra colocar cor branca 
+input:focus-within
+
+sempre que colocar transciçoes e transformações farei no final dos codigos
