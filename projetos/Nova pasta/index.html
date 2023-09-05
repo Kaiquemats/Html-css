@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .t {
+            display: inline-block;
+            background-color: rgb(10, 149, 173);
+            border: 1px solid black;
+            width: 200px;
+            height: 200px;
+            text-align: center;
+        }
+        .t:hover {
+            background-color: yellow;
+        }
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited {
+            color: blue;
+        }
+        a:hover {
+            color: aqua;
+            text-decoration: underline;
+        }
+        a:active {
+            color: white;
+        }
+        .u > p {
+            display: none;
+        }
+
+        .u:hover > p {
+            color: white;
+            display: block;
+            width: 300px;
+            background-color: red;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>primeiro teste</h1>
+    <div class="t">1</div>
+    <div class="t">2</div>
+    <div class="t">3</div>
+
+    <h1>segundo teste</h1>
+    <ul>
+        <li id="d1"><a href="https://www.youtube.com/@CursoemVideo" target="_blank" rel="next">youtube</a></li>
+        <li id="d2"><a href="https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf" target="blank" rel="next">github</a></li>
+        <li id="d3"><a href="https://www.cursoemvideo.com" target="_blank" rel="next">site cursoemvideo</a></li>
+    </ul>
+
+    <h1>terceiro teste</h1>
+    <p>clique abaixo</p>
+    <div class="u">
+        clique aqui
+
+        <p>texto escondido</p>
+    </div>
+</body>
+</html>

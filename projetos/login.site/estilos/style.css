@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+/* paletas de cores
+
+
+*/
+
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+
+body, html {
+    background-color: #72F2EB;
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    overflow: hidden;
+
+    width: 320px;
+    height: 620px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.438);
+
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
+    
+}
+
+
+section#login > div#imagem {
+    display: block;
+    background: #72F2EB url(../imagens/metal3.jpg) no-repeat;
+    background-size: cover;
+    height: 200px;
+    background-position: left center;
+}
+
+section#login > div#formulario {
+    display: block;
+    padding: 10px;
+}
+
+div#formulario > h1 {
+   font-size: 2em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div#formulario > p {
+    font-size: 0.9em;
+    
+}
+
+form > div.campo {
+    
+    background-color: #e2dfdf;
+    display: block;
+    width: 100%;
+    height: 55px;
+    border-radius: 50px;
+    margin: 15px 0px;
+}
+
+
+div.campo > label {
+    display: none;
+}
+
+div.campo > input {
+    text-align: left center;
+    background-color: #e2dfdf;
+    font-size: 1em;
+    width: calc(100% - 1px);
+    height: 100%;
+    transform: translateY(-1px);
+    border: 0px;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+form > input[type=submit] {
+    display: inline-block;
+    color: white;
+    
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: #00a2ff;
+    cursor: pointer;
+}
+
+form > input[type=submit]:hover {
+    background-color: #026ba7;
+}
+
+form > a.botao {
+    display: inline-block;
+    color: #00a2ff;
+    text-align: center;
+    font-size: 1em;
+    text-decoration: none;
+    width: 100%;
+    height: 30px;
+    padding: 15px;
+}
+
+

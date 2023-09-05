@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    section#login {
+        width: 80vw;
+    }
+
+    section#login > div#imagem {
+        background-position: right center ;
+        float: right;
+        width: 50%;
+        height: 150%;
+    }
+
+    section#login > div#formulario {
+        float: left;
+        width: 50%;
+    }
+}
+
+
+@media screen and (min-width: 992px) {
+    section#login {
+        width: 980px;
+    }
+    
+    section#login > div#imagem {
+        background-position: right  ;
+        float: right;
+        width: 50%;
+        height: 170%;
+    }
+
+    section#login > div#formulario {
+        float: left;
+        width: 45%;
+        padding: 40px;
+    }
+
+
+    div#formulario > h1 {
+        font-size: 2em;
+        margin: 30px;
+         text-align: left;
+         margin-bottom: 10px;
+     }
+     
+     div#formulario > p {
+         margin: 15px;
+         font-size: 0.8em;
+         
+     }
+
+     form > a.botao {
+        font-size: 0.9em;
+        color: #00a2ff;
+        text-decoration: none;
+        display: inline-block;
+        text-align: right;
+    }
+
+    form > input[type=submit] {
+        color: white;
+        display: inline-block;
+        font-size: 1em;
+        width: 140px;
+        height: 40px;
+        border-radius: 20px;
+        border: none;
+        background-color: #00a2ff;
+        cursor: pointer;
+    }
+    
+    form > input[type=submit]:hover {
+        background-color: #026ba7;
+    }
+
+    div#caixa {
+        width: 20px;
+        padding: 10px;
+        background-color: black;
+    }
+}
